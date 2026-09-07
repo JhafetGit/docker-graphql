@@ -29,7 +29,7 @@ jobs:
         docker build -t jh4f3t/doker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push jh4f3t/doker-graphql:0.0.2
+        docker push jh4f3t/doker-graphql:latest
         
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
